@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vowel Count</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        flex-direction: column;
+        gap: 13px;
+        /* background: #888; */
+      }
+
+      button {
+        cursor: pointer;
+        padding: 5px 20px;
+        background: #000000;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+      button,
+      input {
+        outline: none;
+        border: none;
+        border-radius: 200px;
+        width: 80%;
+      }
+
+      input {
+        padding: 5px 0;
+      }
+      .result {
+        font-size: 13px;
+        color: #fff;
+      }
+
+      .container {
+        background: dodgerblue;
+        border: 0.5px solid #000;
+        height: 170px;
+        width: 300px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <input type="text" />
+      <button>Count</button>
+
+      <div class="result">Vowel Counter</div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
