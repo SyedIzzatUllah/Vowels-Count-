@@ -6,7 +6,7 @@ console.log(input, btn);
 btn.addEventListener("click", vowelCounter);
 
 function vowelCounter() {
-          let count = 0;
+          let count = 0;  
           let inputText = input.value.toLowerCase();
 
 
