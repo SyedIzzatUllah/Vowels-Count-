@@ -1,4 +1,4 @@
-let input = document.querySelector("input");
+let input = document.querySelector("input"); 
 let btn = document.querySelector("button");
 let output = document.querySelector(".result");
 console.log(input, btn);
