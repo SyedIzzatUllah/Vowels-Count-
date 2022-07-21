@@ -17,5 +17,5 @@ function vowelCounter() {
                     }
           }
 
-          output.textContent = `There are ${count} vowels in the input field!`;
+          output.textContent = `There are ${count} vowels in the input  field!`;
 }   
